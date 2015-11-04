@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# xsim v2014.4
+# SW Build 1071353 on Tue Nov 18 18:06:20 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Wed Jun 24 09:35:20 2015
+# Process ID: 11048
+# Log file: E:/HLS/mpc_pso/solution1/sim/verilog/xsim.log
+# Journal file: E:/HLS/mpc_pso/solution1/sim/verilog\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/Compult/xsim_script.tcl
+# xsim {Compult} -maxdeltaid 10000 -tclbatch {Compult.tcl}
+Vivado Simulator 2014.4
+Time resolution is 1 ps
+source Compult.tcl
+## run all
+$finish called at time : 1189532372400 ps : File "E:/HLS/mpc_pso/solution1/sim/verilog/Compult.autotb.v" Line 315
+run: Time (s): cpu = 00:00:00 ; elapsed = 02:08:23 . Memory (MB): peak = 69.945 ; gain = 0.000
+## quit
+INFO: [Common 17-206] Exiting xsim at Wed Jun 24 11:44:08 2015...

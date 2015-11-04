@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="mpc.cpp" path="E:\HLS\mpc.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="mpc_test.cpp" path="E:\HLS\mpc_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

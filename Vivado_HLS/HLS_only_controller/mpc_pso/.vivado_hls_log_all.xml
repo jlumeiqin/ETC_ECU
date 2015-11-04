@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="@W [SYN-103] Legalizing function name 'Compult_fitness.1' to 'Compult_fitness_1'." projectName="mpc_pso" solutionName="solution1" date="2015-06-19T21:51:17.301+0800" type="Warning"/>
+        <logs message="@W [SYNCHK-120] mpc.cpp:92: multiplication is assumed not to overflow by default, otherwise, please add option '-fwrapv'." projectName="mpc_pso" solutionName="solution1" date="2015-06-19T21:51:10.033+0800" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

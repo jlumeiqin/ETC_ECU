@@ -1,0 +1,153 @@
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: d:/Xilinx/Vivado/2014.4/bin/unwrapped/win32.o/xelab.exe xil_defaultlib.apatb_Compult_top -prj Compult.prj --lib ieee_proposed=./ieee_proposed -s Compult 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_Compult_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_fitness.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_fitness
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_fitness_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_fitness_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_mpc_pso.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_mpc_pso
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_mpc_pso_Ep_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_mpc_pso_Ep_V_ram
+INFO: [VRFC 10-311] analyzing module Compult_mpc_pso_Ep_V
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_mpc_pso_g_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_mpc_pso_g_V_rom
+INFO: [VRFC 10-311] analyzing module Compult_mpc_pso_g_V
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_mpc_pso_SxDx_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_mpc_pso_SxDx_V_ram
+INFO: [VRFC 10-311] analyzing module Compult_mpc_pso_SxDx_V
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_mpc_pso_Sx_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_mpc_pso_Sx_0_rom
+INFO: [VRFC 10-311] analyzing module Compult_mpc_pso_Sx_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_mpc_pso_Sx_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_mpc_pso_Sx_1_rom
+INFO: [VRFC 10-311] analyzing module Compult_mpc_pso_Sx_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_mul_19s_57s_75_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_mul_19s_57s_75_6_MulnS_1
+INFO: [VRFC 10-311] analyzing module Compult_mul_19s_57s_75_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_mul_20s_20ns_40_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_mul_20s_20ns_40_3_Mul3S_3
+INFO: [VRFC 10-311] analyzing module Compult_mul_20s_20ns_40_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_mul_20s_21ns_41_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_mul_20s_21ns_41_3_Mul3S_2
+INFO: [VRFC 10-311] analyzing module Compult_mul_20s_21ns_41_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_mul_22ns_30s_52_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_mul_22ns_30s_52_3_Mul3S_5
+INFO: [VRFC 10-311] analyzing module Compult_mul_22ns_30s_52_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_mul_27s_27s_54_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_mul_27s_27s_54_6_MulnS_0
+INFO: [VRFC 10-311] analyzing module Compult_mul_27s_27s_54_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_mul_29s_16ns_44_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_mul_29s_16ns_44_3_Mul3S_1
+INFO: [VRFC 10-311] analyzing module Compult_mul_29s_16ns_44_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_mul_29s_29s_56_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_mul_29s_29s_56_6_MulnS_3
+INFO: [VRFC 10-311] analyzing module Compult_mul_29s_29s_56_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_mul_30s_18ns_48_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_mul_30s_18ns_48_3_Mul3S_4
+INFO: [VRFC 10-311] analyzing module Compult_mul_30s_18ns_48_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_mul_31s_7ns_38_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_mul_31s_7ns_38_3_Mul3S_0
+INFO: [VRFC 10-311] analyzing module Compult_mul_31s_7ns_38_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_mul_32s_10ns_42_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_mul_32s_10ns_42_3_Mul3S_6
+INFO: [VRFC 10-311] analyzing module Compult_mul_32s_10ns_42_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_mul_32s_29ns_61_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_mul_32s_29ns_61_6_MulnS_5
+INFO: [VRFC 10-311] analyzing module Compult_mul_32s_29ns_61_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_mul_32s_29s_61_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_mul_32s_29s_61_6_MulnS_2
+INFO: [VRFC 10-311] analyzing module Compult_mul_32s_29s_61_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_mul_36s_29ns_65_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_mul_36s_29ns_65_6_MulnS_6
+INFO: [VRFC 10-311] analyzing module Compult_mul_36s_29ns_65_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_mul_40s_30s_68_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_mul_40s_30s_68_6_MulnS_4
+INFO: [VRFC 10-311] analyzing module Compult_mul_40s_30s_68_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_pso.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_pso
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_pso_p_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_pso_p_V_ram
+INFO: [VRFC 10-311] analyzing module Compult_pso_p_V
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_pso_v_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_pso_v_V_ram
+INFO: [VRFC 10-311] analyzing module Compult_pso_v_V
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_pso_ww.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_pso_ww_rom
+INFO: [VRFC 10-311] analyzing module Compult_pso_ww
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_pso_x_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_pso_x_V_ram
+INFO: [VRFC 10-311] analyzing module Compult_pso_x_V
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_pso_y_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_pso_y_V_ram
+INFO: [VRFC 10-311] analyzing module Compult_pso_y_V
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HLS/mpc_pso/solution1/sim/verilog/Compult_randac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Compult_randac
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Compult_mpc_pso_Sx_0_rom
+Compiling module xil_defaultlib.Compult_mpc_pso_Sx_0(DataWidth=2...
+Compiling module xil_defaultlib.Compult_mpc_pso_Sx_1_rom
+Compiling module xil_defaultlib.Compult_mpc_pso_Sx_1(DataWidth=2...
+Compiling module xil_defaultlib.Compult_mpc_pso_g_V_rom
+Compiling module xil_defaultlib.Compult_mpc_pso_g_V(DataWidth=29...
+Compiling module xil_defaultlib.Compult_mpc_pso_SxDx_V_ram
+Compiling module xil_defaultlib.Compult_mpc_pso_SxDx_V(DataWidth...
+Compiling module xil_defaultlib.Compult_mpc_pso_Ep_V_ram
+Compiling module xil_defaultlib.Compult_mpc_pso_Ep_V(DataWidth=3...
+Compiling module xil_defaultlib.Compult_pso_ww_rom
+Compiling module xil_defaultlib.Compult_pso_ww(DataWidth=18,Addr...
+Compiling module xil_defaultlib.Compult_pso_x_V_ram
+Compiling module xil_defaultlib.Compult_pso_x_V(DataWidth=29,Add...
+Compiling module xil_defaultlib.Compult_pso_y_V_ram
+Compiling module xil_defaultlib.Compult_pso_y_V(DataWidth=29,Add...
+Compiling module xil_defaultlib.Compult_pso_v_V_ram
+Compiling module xil_defaultlib.Compult_pso_v_V(DataWidth=30,Add...
+Compiling module xil_defaultlib.Compult_pso_p_V_ram
+Compiling module xil_defaultlib.Compult_pso_p_V(DataWidth=32,Add...
+Compiling module xil_defaultlib.Compult_mul_27s_27s_54_6_MulnS_0
+Compiling module xil_defaultlib.Compult_mul_27s_27s_54_6(ID=1,NU...
+Compiling module xil_defaultlib.Compult_mul_19s_57s_75_6_MulnS_1
+Compiling module xil_defaultlib.Compult_mul_19s_57s_75_6(ID=1,NU...
+Compiling module xil_defaultlib.Compult_mul_29s_16ns_44_3_Mul3S_...
+Compiling module xil_defaultlib.Compult_mul_29s_16ns_44_3(ID=1,N...
+Compiling module xil_defaultlib.Compult_mul_32s_29s_61_6_MulnS_2
+Compiling module xil_defaultlib.Compult_mul_32s_29s_61_6(ID=1,NU...
+Compiling module xil_defaultlib.Compult_mul_29s_29s_56_6_MulnS_3
+Compiling module xil_defaultlib.Compult_mul_29s_29s_56_6(ID=1,NU...
+Compiling module xil_defaultlib.Compult_fitness_1
+Compiling module xil_defaultlib.Compult_fitness
+Compiling module xil_defaultlib.Compult_mul_31s_7ns_38_3_Mul3S_0
+Compiling module xil_defaultlib.Compult_mul_31s_7ns_38_3(ID=1,NU...
+Compiling module xil_defaultlib.Compult_randac
+Compiling module xil_defaultlib.Compult_mul_20s_21ns_41_3_Mul3S_...
+Compiling module xil_defaultlib.Compult_mul_20s_21ns_41_3(ID=1,N...
+Compiling module xil_defaultlib.Compult_mul_20s_20ns_40_3_Mul3S_...
+Compiling module xil_defaultlib.Compult_mul_20s_20ns_40_3(ID=1,N...
+Compiling module xil_defaultlib.Compult_mul_40s_30s_68_6_MulnS_4
+Compiling module xil_defaultlib.Compult_mul_40s_30s_68_6(ID=1,NU...
+Compiling module xil_defaultlib.Compult_mul_30s_18ns_48_3_Mul3S_...
+Compiling module xil_defaultlib.Compult_mul_30s_18ns_48_3(ID=1,N...
+Compiling module xil_defaultlib.Compult_pso
+Compiling module xil_defaultlib.Compult_mul_32s_29ns_61_6_MulnS_...
+Compiling module xil_defaultlib.Compult_mul_32s_29ns_61_6(ID=1,N...
+Compiling module xil_defaultlib.Compult_mul_22ns_30s_52_3_Mul3S_...
+Compiling module xil_defaultlib.Compult_mul_22ns_30s_52_3(ID=1,N...
+Compiling module xil_defaultlib.Compult_mul_36s_29ns_65_6_MulnS_...
+Compiling module xil_defaultlib.Compult_mul_36s_29ns_65_6(ID=1,N...
+Compiling module xil_defaultlib.Compult_mpc_pso
+Compiling module xil_defaultlib.Compult_mul_32s_10ns_42_3_Mul3S_...
+Compiling module xil_defaultlib.Compult_mul_32s_10ns_42_3(ID=1,N...
+Compiling module xil_defaultlib.Compult
+Compiling module xil_defaultlib.apatb_Compult_top
+Waiting for 3 sub-compilation(s) to finish...
+Built simulation snapshot Compult

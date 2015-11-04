@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z010clg400-1" LaunchTime="1435479300">
+  <File Type="RDS-DCP" Name="MPC_PWM_TOP.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
+  <File Type="RDS-UTIL-PB" Name="MPC_PWM_TOP_utilization_synth.pb"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_1/sources.xml"/>
+  <File Type="RDS-PROPCONSTRS" Name="MPC_PWM_TOP_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="MPC_PWM_TOP.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_1/synth_1.psg"/>
+  <File Type="RDS-RDS" Name="MPC_PWM_TOP.vds"/>
+  <File Type="RDS-UTIL" Name="MPC_PWM_TOP_utilization_synth.rpt"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="MPC_PWM_TOP_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="MPC_PWM_TOP_timing_summary_synth.pb"/>
+  <File Type="VDS-HWDEF" Name="MPC_PWM_TOP.hwdef"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_mul_32s_29s_61_6.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_mul_32s_29s_61_6.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_mul_31s_7ns_38_3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_mul_31s_7ns_38_3.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_mul_29s_16ns_44_3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_mul_29s_16ns_44_3.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_mul_27s_27s_54_6.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_mul_27s_27s_54_6.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_mul_29s_29s_56_6.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_mul_29s_29s_56_6.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_mul_19s_57s_75_6.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_mul_19s_57s_75_6.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_fitness.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_fitness.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_fitness_1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_fitness_1.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_pso_ww.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_pso_ww.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_pso_x_V.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_pso_x_V.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_pso_p_V.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_pso_p_V.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_randac.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_randac.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_pso_y_V.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_pso_y_V.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_mul_30s_18ns_48_3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_mul_30s_18ns_48_3.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_mul_40s_30s_68_6.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_mul_40s_30s_68_6.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_pso_v_V.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_pso_v_V.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_mul_20s_20ns_40_3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_mul_20s_20ns_40_3.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_mul_20s_21ns_41_3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_mul_20s_21ns_41_3.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_mul_22ns_30s_52_3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_mul_22ns_30s_52_3.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_mpc_pso_g_V.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_mpc_pso_g_V.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_pso.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_pso.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_mpc_pso_Sx_1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_mpc_pso_Sx_1.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_mpc_pso_Sx_0.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_mpc_pso_Sx_0.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_mul_36s_29ns_65_6.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_mul_36s_29ns_65_6.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_mpc_pso_SxDx_V.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_mpc_pso_SxDx_V.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_mul_32s_29ns_61_6.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_mul_32s_29ns_61_6.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_mpc_pso_Ep_V.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_mpc_pso_Ep_V.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_mpc_pso.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_mpc_pso.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_mul_30s_26ns_55_6.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_mul_30s_26ns_55_6.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult_mul_31s_10ns_41_3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult_mul_31s_10ns_41_3.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ETC_MPC/pwm_task_logic.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../pwm_task_logic.v"/>
+        <Attr Name="ImportTime" Val="1434941355"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ETC_MPC/ug480.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ug480.v"/>
+        <Attr Name="ImportTime" Val="1435150399"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Controller/Compult.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Controller/Compult.v"/>
+        <Attr Name="ImportTime" Val="1435316582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MPC_PWM_TOP.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Controller/Compult_mpc_pso_g_V_rom.dat">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Controller/Compult_mpc_pso_Sx_1_rom.dat">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Controller/Compult_pso_ww_rom.dat">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Controller/Compult_mpc_pso_Sx_0_rom.dat">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="MPC_PWM_TOP"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/MPC.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/MPC.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

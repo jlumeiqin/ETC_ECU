@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4
+# SW Build 1071353 on Tue Nov 18 18:10:08 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Sun Jun 28 16:17:18 2015
+# Process ID: 8544
+# Log file: E:/ETC_MPC/ETC_MPC/ETC_MPC.runs/impl_1/MPC_PWM_TOP.vdi
+# Journal file: E:/ETC_MPC/ETC_MPC/ETC_MPC.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source MPC_PWM_TOP.tcl -notrace

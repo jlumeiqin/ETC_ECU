@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Webtalk v2014.4
+# SW Build 1071353 on Tue Nov 18 18:06:20 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Wed Jun 24 09:35:09 2015
+# Process ID: 11612
+# Log file: E:/HLS/mpc_pso/solution1/sim/verilog/webtalk.log
+# Journal file: E:/HLS/mpc_pso/solution1/sim/verilog\webtalk.jou
+#-----------------------------------------------------------
+source E:/HLS/mpc_pso/solution1/sim/verilog/xsim.dir/Compult/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 169.348 ; gain = 0.066
+
+    while executing
+"webtalk_transmit -clientid 4060314397 -regid "" -xml E:/HLS/mpc_pso/solution1/sim/verilog/xsim.dir/Compult/webtalk/usage_statistics_ext_xsim.xml -html..."
+    (file "E:/HLS/mpc_pso/solution1/sim/verilog/xsim.dir/Compult/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Wed Jun 24 09:35:16 2015...

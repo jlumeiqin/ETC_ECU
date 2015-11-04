@@ -1,0 +1,225 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win32) Build 1071353 Tue Nov 18 18:10:08 MST 2014
+| Date         : Sun Jun 28 16:19:22 2015
+| Host         : Ji_Dongdong running 32-bit Service Pack 1  (build 7601)
+| Command      : report_drc
+------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+           Max violations: <unlimited>
+         Violations found: 38
+
+2. REPORT DETAILS
+-----------------
+UCIO-1#1 Critical Warning
+Unconstrained Logical Port  
+8 out of 14 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: VAUXP[3:0], VAUXN[3:0].
+Related violations: <none>
+
+ADEF-911#1 Warning
+SIM_DEVICE_arch_mismatch  
+Cell mytest/XADC_INST has the SIM_DEVICE attribute set to ZYNQ, but the current architecture is ZYNQ. The SIM_DEVICE attribute must match the loaded architecture. To correct this issue set the SIM_DEVICE attribute for this cell to 7SERIES.
+Related violations: <none>
+
+CFGBVS-1#1 Warning
+Missing CFGBVS and CONFIG_VOLTAGE Design Properties  
+Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+Related violations: <none>
+
+DPIP-1#1 Warning
+Input pipelining  
+DSP my_controlller/p_Val2_8_fu_378_p2 input A B is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#2 Warning
+Input pipelining  
+DSP my_controlller/p_Val2_s_fu_184_p2 input A B is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-1#1 Warning
+Output pipelining  
+DSP my_controlller/Compult_mul_30s_26ns_55_6_U60/Compult_mul_30s_26ns_55_6_MulnS_7_U/buff0_reg output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#2 Warning
+Output pipelining  
+DSP my_controlller/Compult_mul_31s_10ns_41_3_U59/Compult_mul_31s_10ns_41_3_Mul3S_6_U/buff0_reg output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#3 Warning
+Output pipelining  
+DSP my_controlller/Compult_mul_31s_10ns_41_3_U59/Compult_mul_31s_10ns_41_3_Mul3S_6_U/tmp_product output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#4 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/Compult_mul_22ns_30s_52_3_U47/Compult_mul_22ns_30s_52_3_Mul3S_5_U/buff0_reg output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#5 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/Compult_mul_22ns_30s_52_3_U47/Compult_mul_22ns_30s_52_3_Mul3S_5_U/tmp_product output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#6 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/Compult_mul_32s_29ns_61_6_U46/Compult_mul_32s_29ns_61_6_MulnS_5_U/buff0_reg output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#7 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/Compult_mul_36s_29ns_65_6_U48/Compult_mul_36s_29ns_65_6_MulnS_6_U/buff0_reg output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#8 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/grp_Compult_pso_fu_348/Compult_mul_20s_20ns_40_3_U30/Compult_mul_20s_20ns_40_3_Mul3S_3_U/tmp_product output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#9 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/grp_Compult_pso_fu_348/Compult_mul_20s_20ns_40_3_U31/Compult_mul_20s_20ns_40_3_Mul3S_3_U/tmp_product output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#10 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/grp_Compult_pso_fu_348/Compult_mul_20s_21ns_41_3_U29/Compult_mul_20s_21ns_41_3_Mul3S_2_U/tmp_product output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#11 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/grp_Compult_pso_fu_348/Compult_mul_30s_18ns_48_3_U34/Compult_mul_30s_18ns_48_3_Mul3S_4_U/buff0_reg output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#12 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/grp_Compult_pso_fu_348/Compult_mul_30s_18ns_48_3_U34/Compult_mul_30s_18ns_48_3_Mul3S_4_U/tmp_product output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#13 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/grp_Compult_pso_fu_348/Compult_mul_40s_30s_68_6_U32/Compult_mul_40s_30s_68_6_MulnS_4_U/buff0_reg output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#14 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/grp_Compult_pso_fu_348/Compult_mul_40s_30s_68_6_U33/Compult_mul_40s_30s_68_6_MulnS_4_U/buff0_reg output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#15 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/grp_Compult_pso_fu_348/grp_Compult_fitness_1_fu_573/Compult_mul_19s_57s_75_6_U2/Compult_mul_19s_57s_75_6_MulnS_1_U/buff0_reg output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#16 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/grp_Compult_pso_fu_348/grp_Compult_fitness_1_fu_573/Compult_mul_19s_57s_75_6_U3/Compult_mul_19s_57s_75_6_MulnS_1_U/buff0_reg output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#17 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/grp_Compult_pso_fu_348/grp_Compult_fitness_1_fu_573/Compult_mul_27s_27s_54_6_U1/Compult_mul_27s_27s_54_6_MulnS_0_U/buff0_reg output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#18 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/grp_Compult_pso_fu_348/grp_Compult_fitness_1_fu_573/Compult_mul_29s_16ns_44_3_U4/Compult_mul_29s_16ns_44_3_Mul3S_1_U/buff0_reg output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#19 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/grp_Compult_pso_fu_348/grp_Compult_fitness_1_fu_573/Compult_mul_29s_16ns_44_3_U4/Compult_mul_29s_16ns_44_3_Mul3S_1_U/tmp_product output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#20 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/grp_Compult_pso_fu_348/grp_Compult_fitness_1_fu_573/Compult_mul_29s_29s_56_6_U6/Compult_mul_29s_29s_56_6_MulnS_3_U/buff0_reg output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#21 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/grp_Compult_pso_fu_348/grp_Compult_fitness_1_fu_573/Compult_mul_32s_29s_61_6_U5/Compult_mul_32s_29s_61_6_MulnS_2_U/buff0_reg output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#22 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/grp_Compult_pso_fu_348/grp_Compult_fitness_fu_588/Compult_mul_19s_57s_75_6_U16/Compult_mul_19s_57s_75_6_MulnS_1_U/buff0_reg output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#23 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/grp_Compult_pso_fu_348/grp_Compult_fitness_fu_588/Compult_mul_19s_57s_75_6_U17/Compult_mul_19s_57s_75_6_MulnS_1_U/buff0_reg output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#24 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/grp_Compult_pso_fu_348/grp_Compult_fitness_fu_588/Compult_mul_27s_27s_54_6_U15/Compult_mul_27s_27s_54_6_MulnS_0_U/buff0_reg output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#25 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/grp_Compult_pso_fu_348/grp_Compult_fitness_fu_588/Compult_mul_29s_16ns_44_3_U18/Compult_mul_29s_16ns_44_3_Mul3S_1_U/buff0_reg output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#26 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/grp_Compult_pso_fu_348/grp_Compult_fitness_fu_588/Compult_mul_29s_16ns_44_3_U18/Compult_mul_29s_16ns_44_3_Mul3S_1_U/tmp_product output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#27 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/grp_Compult_pso_fu_348/grp_Compult_fitness_fu_588/Compult_mul_29s_29s_56_6_U20/Compult_mul_29s_29s_56_6_MulnS_3_U/buff0_reg output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#28 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/grp_Compult_pso_fu_348/grp_Compult_fitness_fu_588/Compult_mul_32s_29s_61_6_U19/Compult_mul_32s_29s_61_6_MulnS_2_U/buff0_reg output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#29 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/grp_Compult_pso_fu_348/grp_Compult_randac_fu_600/Compult_mul_31s_7ns_38_3_U0/Compult_mul_31s_7ns_38_3_Mul3S_0_U/buff0_reg output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#30 Warning
+Output pipelining  
+DSP my_controlller/grp_Compult_mpc_pso_fu_161/grp_Compult_pso_fu_348/grp_Compult_randac_fu_600/Compult_mul_31s_7ns_38_3_U0/Compult_mul_31s_7ns_38_3_Mul3S_0_U/tmp_product output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#31 Warning
+Output pipelining  
+DSP my_controlller/p_Val2_8_fu_378_p2 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#32 Warning
+Output pipelining  
+DSP my_controlller/p_Val2_s_fu_184_p2 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+ZPS7-1#1 Warning
+PS7 block required  
+The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+Related violations: <none>
+
+

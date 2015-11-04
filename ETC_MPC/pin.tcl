@@ -1,0 +1,1 @@
+set_property SEVERITY {Warning} [get_drc_checks UCTO-1]
